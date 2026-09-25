@@ -1,0 +1,11 @@
+The hero background currently defaults to the reference CloudFront video
+from the original design spec, set directly in
+src/components/ScrollVideo.tsx (VIDEO_SRC).
+
+Whenever you have your own footage, you can either:
+  - drop hero.mp4 (and optionally hero-poster.jpg) right here in /public,
+    then change VIDEO_SRC in ScrollVideo.tsx to '/hero.mp4', or
+  - just replace the CloudFront URL in VIDEO_SRC with a new hosted URL.
+
+The page still works with nothing here (it falls back to a plain dark
+background), so this folder is safe to leave empty in the meantime.
