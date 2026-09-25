@@ -1,0 +1,5 @@
+# Update the Sitemap line below once the real production domain is live.
+User-agent: *
+Allow: /
+
+Sitemap: https://thetalisman.co/sitemap.xml
